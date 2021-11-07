@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/');
+*{
+    margin: 0;
+    padding: 0;
+}
+.keep_logo{
+    width: 4.75rem;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+/* Header css */
+.navbar{
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.192);
+}
+
+.keep_title{
+    
+    color: rgb(97, 97, 97);
+}
+.keep_title:hover{
+    color:black;
+    cursor: pointer;
+}
+
+/* Header CSS End */
+
+.count{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+form{
+    position: relative;
+    width: 600px;
+    background-color: #fff;
+    padding: 7px;
+    margin:32px auto 50px auto;
+    /* border: 0.1rem ridge grey; */
+    box-shadow: 0 1px 5px grey;
+}
+
+form input{
+    width: 90%;
+    border: 0;
+    padding: 4px 10px;
+    margin-bottom: 20x;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+}
+
+form textarea{
+    width: 90%;
+    border: 0;
+    resize: none;
+    outline: none;
+    padding: 4px 10px;
+    font-size: 1rem;
+    font-style: monospace;
+}
+
+form button{
+    position: absolute;
+    bottom: -25px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #F5BA14;
+    border: 0;
+    color: #fff;
+    padding: 7px;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+
+form button:hover{
+    color: black;
+}
+
+/* For the note component */
+
+.note{
+    background: #fff;
+    width:240px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgba(128, 128, 128, 0.562);
+    padding: 10px;
+    margin: 16px;
+    float: left;
+    margin-right: 0;
+}
+
+.note h1{
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+
+}
+
+.note p{
+    font-size: 1rem;
+    color: rgb(182, 16, 16);
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+
+.note button{
+    border: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+/* footer */
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100vw;
+    padding:1rem ;
+}
